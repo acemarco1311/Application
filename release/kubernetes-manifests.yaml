@@ -910,6 +910,8 @@ metadata:
   labels:
     app: adservice
 spec:
+  #TODO:
+  replicas: 3
   selector:
     matchLabels:
       app: adservice
